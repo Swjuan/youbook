@@ -10,6 +10,7 @@ import { ArticleComponent } from './index/article/article.component';
 import { BootomComponent } from './index/bootom/bootom.component';
 import { NavComponent } from './nav/nav.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { PaginationComponent } from './pagination/pagination.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     TabComponent,
     ArticleComponent,
     BootomComponent,
-    NavComponent
+    NavComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,

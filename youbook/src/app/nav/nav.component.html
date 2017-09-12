@@ -1,12 +1,27 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <div class="nav">
  <ul class="nav_ul" >
-   <li id="icon-li"><a href=""><img src="../../assets/img/logo_w.png" ></a></li>
+   <li id="icon-li"><a href=""><img src="../../assets/img/logo_b.png" height="50" width="137"/></a></li>
    <li><a href="">首页</a></li>
-   <li><a href="">发现</a></li>
-   <li><a href="">活动</a></li>
+   <li ngbDropdown class="d-inline-block">
+     <a href=""  id="dropdownBasic1" ngbDropdownToggle>发现</a>
+     <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+       <button class="dropdown-item">书籍</button>
+       <button class="dropdown-item">话题</button>
+     </div>
+   </li>
+   <li ngbDropdown class="d-inline-block">
+     <a href="" ngbDropdownToggle>活动</a>
+     <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+       <button class="dropdown-item">文章评比</button>
+       <button class="dropdown-item">以书会友</button>
+       <button class="dropdown-item">作家签售会</button>
+       <button class="dropdown-item">书籍赠送</button>
+     </div>
+   </li>
    <li id="serch_li"><input  class="inputcss" type="text" ><img src="../../assets/img/search.png" height="48" width="48"/></li>
    <li><a href="">登录</a></li>
    <li><a href="">注册</a></li>
-   <li><a href="">发表文章</a></li>
+   <li><a href=""><img  class="pencil_css" src="../../assets/img/pencil.png">发表文章</a></li>
  </ul>
 </div>

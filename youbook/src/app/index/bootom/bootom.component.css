@@ -1,15 +1,16 @@
 .bottom{
   width: 1127px;
-  height: 100px;
-  background-color: darkgray;
+  height: 120px;
+ background-color:white;
   margin: 0 auto;
+  float: left;
 
 }
 ul{
   list-style: none;
   margin: 0 auto;
   height: 80px;
-
+ cursor: auto;
 
 
 }
@@ -18,8 +19,12 @@ li{
   margin: 30px 50px;
   width: 80px;
 }
+.message{
+  background-color: white;
+}
 li a{
   text-decoration: none;
+  color: black;
 }
 .weixin{
   width: 35px;
