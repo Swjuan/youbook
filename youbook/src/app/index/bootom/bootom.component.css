@@ -1,0 +1,41 @@
+.bottom{
+  width: 1127px;
+  height: 100px;
+  background-color: darkgray;
+  margin: 0 auto;
+
+}
+ul{
+  list-style: none;
+  margin: 0 auto;
+  height: 80px;
+
+
+
+}
+li{
+  float: left;
+  margin: 30px 50px;
+  width: 80px;
+}
+li a{
+  text-decoration: none;
+}
+.weixin{
+  width: 35px;
+  height: 31px;
+  margin: 10px 20px;
+  float: right;
+}
+.weibo{
+  width: 35px;
+  height: 31px;
+  margin: 10px 20px;
+  float: right;
+}
+.bottom-footer{
+ text-align: center;
+  height: 40px;
+  border-top: solid 1px black;
+  line-height: 40px;
+}
