@@ -11,6 +11,13 @@ import { BootomComponent } from './index/bootom/bootom.component';
 import { NavComponent } from './nav/nav.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { PaginationComponent } from './pagination/pagination.component';
+import { PayComponent } from './pay/pay.component';
+import { BuyComponent } from './pay/buy/buy.component';
+import { ConfirmComponent } from './pay/confirm/confirm.component';
+import { SuccessComponent } from './pay/success/success.component';
+import { BuystepComponent } from './pay/buystep/buystep.component';
+import { ConfirmstepComponent } from './pay/confirmstep/confirmstep.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +28,14 @@ import { PaginationComponent } from './pagination/pagination.component';
     ArticleComponent,
     BootomComponent,
     NavComponent,
-    PaginationComponent
+    PaginationComponent,
+    PayComponent,
+    BuyComponent,
+    ConfirmComponent,
+    SuccessComponent,
+    BuystepComponent,
+    ConfirmstepComponent,
+
   ],
   imports: [
     BrowserModule,
