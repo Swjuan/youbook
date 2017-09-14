@@ -17,6 +17,7 @@ import { ConfirmComponent } from './pay/confirm/confirm.component';
 import { SuccessComponent } from './pay/success/success.component';
 import { BuystepComponent } from './pay/buy/buystep/buystep.component';
 import { ConfirmstepComponent } from './pay/confirm/confirmstep/confirmstep.component';
+import { PaysecondComponent } from './paysecond/paysecond.component';
 // import {ActivatedRoute} from "@angular/router";
 
 @NgModule({
@@ -36,6 +37,7 @@ import { ConfirmstepComponent } from './pay/confirm/confirmstep/confirmstep.comp
     SuccessComponent,
     BuystepComponent,
     ConfirmstepComponent,
+    PaysecondComponent,
 
   ],
   imports: [
