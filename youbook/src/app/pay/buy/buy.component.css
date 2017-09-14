@@ -63,7 +63,7 @@ img{
 .pc-bottom-bottom-left{
   position: absolute;
   width: 50%;
-  height: 150px;
+  height: 200px;
   border-bottom: solid 1px lightgrey;
   margin: 35px 0;
 
@@ -85,7 +85,7 @@ img{
 }
 .pc-bottom-bottom-right{
   width: 50%;
-  height: 150px;
+  height: 200px;
   float: right;
   border-bottom: solid 1px lightgrey;
   margin: 35px 0;
@@ -100,8 +100,8 @@ img{
 .bd{
 
   position: absolute;
-  top:210px;
-  left: 1000px;
+  top:170px;
+  left: 830px;
 
 }
 .btn{

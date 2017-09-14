@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+// import {Router} from '@angular/router';
 @Component({
   selector: 'app-buy',
   templateUrl: './buy.component.html',
@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class BuyComponent implements OnInit {
 
   constructor() { }
-
+  // private router:Router
   ngOnInit() {
   }
+  // toConfirm(){
+  //   this.router.navigate(['/confirm']);
+  // }
 
 }

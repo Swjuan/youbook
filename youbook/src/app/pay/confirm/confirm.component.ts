@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+// import { ActivatedRoute, ParamMap } from '@angular/router';
 @Component({
   selector: 'app-confirm',
   templateUrl: './confirm.component.html',
@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConfirmComponent implements OnInit {
 
-  constructor() { }
+  constructor( ) {
+  // private route: ActivatedRoute
+  }
 
   ngOnInit() {
   }

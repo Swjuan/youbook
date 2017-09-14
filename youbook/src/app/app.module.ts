@@ -15,8 +15,9 @@ import { PayComponent } from './pay/pay.component';
 import { BuyComponent } from './pay/buy/buy.component';
 import { ConfirmComponent } from './pay/confirm/confirm.component';
 import { SuccessComponent } from './pay/success/success.component';
-import { BuystepComponent } from './pay/buystep/buystep.component';
-import { ConfirmstepComponent } from './pay/confirmstep/confirmstep.component';
+import { BuystepComponent } from './pay/buy/buystep/buystep.component';
+import { ConfirmstepComponent } from './pay/confirm/confirmstep/confirmstep.component';
+// import {ActivatedRoute} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { ConfirmstepComponent } from './pay/confirmstep/confirmstep.component';
     BrowserModule,
     NgbModule.forRoot()
   ],
-  providers: [],
+  // providers: [ActivatedRoute],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

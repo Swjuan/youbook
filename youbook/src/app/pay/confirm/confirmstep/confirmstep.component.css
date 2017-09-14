@@ -26,7 +26,7 @@
 
 }
 .paybook,.paysuccess{
-position: absolute;
+  position: absolute;
   top:60px;
   left: 75px;
 }
@@ -37,15 +37,9 @@ position: absolute;
 }
 .stepline{
   height:1px;
+  width: 216px;
   position: relative;
   top:-20px;
   left: 122px;
   /*z-index: 2;*/
 }
-/*.paybookimg:after{*/
-  /*content:"";*/
-  /*width: 100px;*/
-  /*height: 100px;*/
-  /*border:solid 1px #97C0F9;*/
-  /*position: absolute;*/
-/*}*/
