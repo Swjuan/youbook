@@ -18,7 +18,14 @@ import { SuccessComponent } from './pay/success/success.component';
 import { BuystepComponent } from './pay/buy/buystep/buystep.component';
 import { ConfirmstepComponent } from './pay/confirm/confirmstep/confirmstep.component';
 import { PaysecondComponent } from './paysecond/paysecond.component';
-// import {ActivatedRoute} from "@angular/router";
+import { DiscoverComponent } from './discover/discover.component';
+import { ActiveComponent } from './active/active.component';
+import { LoginComponent } from './login/login.component';
+import { RegistComponent } from './regist/regist.component';
+import { PublisharticleComponent } from './publisharticle/publisharticle.component';
+import {AppRoutingModule} from "./app-routing.module";
+import {HttpClientModule} from "@angular/common/http";
+
 
 @NgModule({
   declarations: [
@@ -38,13 +45,20 @@ import { PaysecondComponent } from './paysecond/paysecond.component';
     BuystepComponent,
     ConfirmstepComponent,
     PaysecondComponent,
+    DiscoverComponent,
+    ActiveComponent,
+    LoginComponent,
+    RegistComponent,
+    PublisharticleComponent,
 
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
     NgbModule.forRoot()
   ],
-  // providers: [ActivatedRoute],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

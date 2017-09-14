@@ -12,8 +12,9 @@ import { Component, OnInit } from '@angular/core';
 export class BannerComponent{
 
  constructor(config: NgbCarouselConfig) {
-    config.interval = 10000;
-    config.wrap = false;
+    config.interval = 3000;
+    //循环组图
+    config.wrap = true;
      config.keyboard = false;
   }}
 

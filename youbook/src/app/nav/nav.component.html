@@ -2,16 +2,16 @@
 <div class="nav">
  <ul class="nav_ul" >
    <li id="icon-li"><a href=""><img src="../../assets/img/logo_b.png" height="50" width="137"/></a></li>
-   <li><a href="">首页</a></li>
+   <li><a routerLink="/index">首页</a></li>
    <li ngbDropdown class="d-inline-block">
-     <a routerLink=""  id="dropdownBasic1" ngbDropdownToggle>发现</a>
+     <a routerLink="/discover"  id="dropdownBasic1" ngbDropdownToggle>发现</a>
      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
        <button class="dropdown-item">书籍</button>
        <button class="dropdown-item">话题</button>
      </div>
    </li>
    <li ngbDropdown class="d-inline-block">
-     <a href="" ngbDropdownToggle>活动</a>
+     <a routerLink="active" ngbDropdownToggle>活动</a>
      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
        <button class="dropdown-item">文章评比</button>
        <button class="dropdown-item">以书会友</button>
@@ -20,8 +20,8 @@
      </div>
    </li>
    <li id="serch_li"><input  class="inputcss" type="text" ><img src="../../assets/img/search.png" height="48" width="48"/></li>
-   <li><a href="">登录</a></li>
-   <li><a href="">注册</a></li>
-   <li><a href=""><img  class="pencil_css" src="../../assets/img/pencil.png">发表文章</a></li>
+   <li><a routerLink="login">登录</a></li>
+   <li><a routerLink="regist">注册</a></li>
+   <li><a routerLink="publisharticle"><img  class="pencil_css" src="../../assets/img/pencil.png">发表文章</a></li>
  </ul>
 </div>
