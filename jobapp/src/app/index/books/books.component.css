@@ -1,0 +1,56 @@
+.middle-middle-bookshow{
+  width: 240px;
+  height: 300px;
+  /*background-color: darkolivegreen;*/
+  position: relative;
+  /*top: 20px;*/
+  /*left: 20px;*/
+  float: left;
+  margin: 60px 20px;
+
+}
+
+.img-css{
+  width: 240px;
+  height: 250px;
+
+}
+/*.booksname-css.author-css{*/
+  /*width: 240px;*/
+  /*height: 25px;*/
+  /*text-decoration: none;*/
+  /*!*background-color: #ea6f5a;*!*/
+
+/*}*/
+.booka{
+  text-decoration: none;
+  /*background-color: #ea6f5a;*/
+}
+.bookpubtimecss{
+  margin: 0 10px;
+  position: absolute;
+  top: 250px;
+  /*left: 80px;*/
+  margin-left: 158px;
+
+
+}
+.comment{
+  margin: 0 30px;
+}
+.comment a{
+  text-decoration: none;
+  color:black;
+}
+#book_commetcountbook{
+  margin: 0 10px;
+
+}
+/*.glyphicon a{*/
+  /*color: lightgrey;*/
+  /*text-decoration: none;*/
+/*}*/
+#commetcount{
+  text-decoration: none;
+  color: black;
+}
